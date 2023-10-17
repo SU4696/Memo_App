@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE5255D2287DAF7700065FCC /* UiViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5255D1287DAF7700065FCC /* UiViewController+Alert.swift */; };
+		BE67B5D8286A5AE8000AFEF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67B5D7286A5AE8000AFEF3 /* AppDelegate.swift */; };
+		BE67B5DA286A5AE8000AFEF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67B5D9286A5AE8000AFEF3 /* SceneDelegate.swift */; };
+		BE67B5DF286A5AE8000AFEF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE67B5DD286A5AE8000AFEF3 /* Main.storyboard */; };
+		BE67B5E2286A5AE8000AFEF3 /* SuMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE67B5E0286A5AE8000AFEF3 /* SuMemo.xcdatamodeld */; };
+		BE67B5E4286A5AEC000AFEF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE67B5E3286A5AEC000AFEF3 /* Assets.xcassets */; };
+		BE67B5E7286A5AEC000AFEF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE67B5E5286A5AEC000AFEF3 /* LaunchScreen.storyboard */; };
+		BE67B5F0286B3928000AFEF3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67B5EF286B3928000AFEF3 /* Model.swift */; };
+		BE67B5F2286B3B87000AFEF3 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67B5F1286B3B87000AFEF3 /* MemoListTableViewController.swift */; };
+		BE67B5F4286B4E98000AFEF3 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE67B5F3286B4E98000AFEF3 /* ComposeViewController.swift */; };
+		BED01A4128898B7A002011AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED01A4028898B7A002011AC /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE5255D1287DAF7700065FCC /* UiViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiViewController+Alert.swift"; sourceTree = "<group>"; };
+		BE67B5D4286A5AE8000AFEF3 /* SuMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE67B5D7286A5AE8000AFEF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE67B5D9286A5AE8000AFEF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE67B5DE286A5AE8000AFEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE67B5E1286A5AE8000AFEF3 /* SuMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuMemo.xcdatamodel; sourceTree = "<group>"; };
+		BE67B5E3286A5AEC000AFEF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE67B5E6286A5AEC000AFEF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE67B5E8286A5AEC000AFEF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE67B5EF286B3928000AFEF3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BE67B5F1286B3B87000AFEF3 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		BE67B5F3286B4E98000AFEF3 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		BED01A4028898B7A002011AC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE67B5D1286A5AE8000AFEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE67B5CB286A5AE8000AFEF3 = {
+			isa = PBXGroup;
+			children = (
+				BE67B5D6286A5AE8000AFEF3 /* SuMemo */,
+				BE67B5D5286A5AE8000AFEF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE67B5D5286A5AE8000AFEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE67B5D4286A5AE8000AFEF3 /* SuMemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE67B5D6286A5AE8000AFEF3 /* SuMemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE67B5EE286B3900000AFEF3 /* Model */,
+				BE67B5D7286A5AE8000AFEF3 /* AppDelegate.swift */,
+				BE67B5D9286A5AE8000AFEF3 /* SceneDelegate.swift */,
+				BE67B5DD286A5AE8000AFEF3 /* Main.storyboard */,
+				BE67B5E3286A5AEC000AFEF3 /* Assets.xcassets */,
+				BE67B5E8286A5AEC000AFEF3 /* Info.plist */,
+				BE67B5E0286A5AE8000AFEF3 /* SuMemo.xcdatamodeld */,
+				BE67B5F1286B3B87000AFEF3 /* MemoListTableViewController.swift */,
+				BE67B5E5286A5AEC000AFEF3 /* LaunchScreen.storyboard */,
+				BE67B5F3286B4E98000AFEF3 /* ComposeViewController.swift */,
+				BE5255D1287DAF7700065FCC /* UiViewController+Alert.swift */,
+				BED01A4028898B7A002011AC /* DetailViewController.swift */,
+			);
+			path = SuMemo;
+			sourceTree = "<group>";
+		};
+		BE67B5EE286B3900000AFEF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE67B5EF286B3928000AFEF3 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE67B5D3286A5AE8000AFEF3 /* SuMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE67B5EB286A5AEC000AFEF3 /* Build configuration list for PBXNativeTarget "SuMemo" */;
+			buildPhases = (
+				BE67B5D0286A5AE8000AFEF3 /* Sources */,
+				BE67B5D1286A5AE8000AFEF3 /* Frameworks */,
+				BE67B5D2286A5AE8000AFEF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuMemo;
+			productName = SuMemo;
+			productReference = BE67B5D4286A5AE8000AFEF3 /* SuMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE67B5CC286A5AE8000AFEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BE67B5D3286A5AE8000AFEF3 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = BE67B5CF286A5AE8000AFEF3 /* Build configuration list for PBXProject "SuMemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE67B5CB286A5AE8000AFEF3;
+			productRefGroup = BE67B5D5286A5AE8000AFEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE67B5D3286A5AE8000AFEF3 /* SuMemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE67B5D2286A5AE8000AFEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67B5E7286A5AEC000AFEF3 /* LaunchScreen.storyboard in Resources */,
+				BE67B5E4286A5AEC000AFEF3 /* Assets.xcassets in Resources */,
+				BE67B5DF286A5AE8000AFEF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE67B5D0286A5AE8000AFEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE67B5E2286A5AE8000AFEF3 /* SuMemo.xcdatamodeld in Sources */,
+				BE67B5D8286A5AE8000AFEF3 /* AppDelegate.swift in Sources */,
+				BE67B5F2286B3B87000AFEF3 /* MemoListTableViewController.swift in Sources */,
+				BE67B5F4286B4E98000AFEF3 /* ComposeViewController.swift in Sources */,
+				BE5255D2287DAF7700065FCC /* UiViewController+Alert.swift in Sources */,
+				BE67B5DA286A5AE8000AFEF3 /* SceneDelegate.swift in Sources */,
+				BE67B5F0286B3928000AFEF3 /* Model.swift in Sources */,
+				BED01A4128898B7A002011AC /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE67B5DD286A5AE8000AFEF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67B5DE286A5AE8000AFEF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE67B5E5286A5AEC000AFEF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE67B5E6286A5AEC000AFEF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE67B5E9286A5AEC000AFEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE67B5EA286A5AEC000AFEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE67B5EC286A5AEC000AFEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPG82D37U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MOMEMO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csy.SuMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE67B5ED286A5AEC000AFEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZPG82D37U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MOMEMO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = csy.SuMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE67B5CF286A5AE8000AFEF3 /* Build configuration list for PBXProject "SuMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67B5E9286A5AEC000AFEF3 /* Debug */,
+				BE67B5EA286A5AEC000AFEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE67B5EB286A5AEC000AFEF3 /* Build configuration list for PBXNativeTarget "SuMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE67B5EC286A5AEC000AFEF3 /* Debug */,
+				BE67B5ED286A5AEC000AFEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE67B5E0286A5AE8000AFEF3 /* SuMemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE67B5E1286A5AE8000AFEF3 /* SuMemo.xcdatamodel */,
+			);
+			currentVersion = BE67B5E1286A5AE8000AFEF3 /* SuMemo.xcdatamodel */;
+			path = SuMemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE67B5CC286A5AE8000AFEF3 /* Project object */;
+}
